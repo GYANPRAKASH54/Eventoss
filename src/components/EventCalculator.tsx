@@ -114,8 +114,8 @@ export default function EventCalculator() {
                     className="clickable"
                     style={{
                       padding: '12px',
-                      background: eventType === type.id ? 'var(--gold)' : 'rgba(255,255,255,0.03)',
-                      color: eventType === type.id ? 'var(--bg-deep)' : '#ffffff',
+                      background: eventType === type.id ? 'var(--gold)' : 'var(--bg-input)',
+                      color: eventType === type.id ? 'var(--bg-deep)' : 'var(--text-light)',
                       border: eventType === type.id ? '1px solid var(--gold)' : '1px solid var(--border-glass)',
                       borderRadius: '8px',
                       fontSize: '0.85rem',
@@ -146,7 +146,7 @@ export default function EventCalculator() {
                   width: '100%',
                   accentColor: 'var(--gold)',
                   height: '6px',
-                  background: 'rgba(255,255,255,0.1)',
+                  background: 'var(--bg-input)',
                   borderRadius: '4px',
                   outline: 'none',
                 }}
@@ -177,13 +177,13 @@ export default function EventCalculator() {
                     style={{
                       padding: '16px',
                       textAlign: 'left',
-                      background: tier === opt.id ? 'rgba(212, 175, 55, 0.1)' : 'rgba(255,255,255,0.02)',
+                      background: tier === opt.id ? 'rgba(212, 175, 55, 0.1)' : 'var(--bg-input)',
                       border: tier === opt.id ? '1px solid var(--gold)' : '1px solid var(--border-glass)',
                       borderRadius: '8px',
                       transition: 'all 0.3s',
                     }}
                   >
-                    <div style={{ color: tier === opt.id ? 'var(--gold)' : '#ffffff', fontSize: '0.85rem', fontWeight: 600 }}>{opt.label}</div>
+                    <div style={{ color: tier === opt.id ? 'var(--gold)' : 'var(--text-light)', fontSize: '0.85rem', fontWeight: 600 }}>{opt.label}</div>
                     <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '2px' }}>{opt.desc}</div>
                   </button>
                 ))}
@@ -209,12 +209,12 @@ export default function EventCalculator() {
                     style={{
                       padding: '12px',
                       textAlign: 'left',
-                      background: addons.includes(addon.id) ? 'rgba(108, 92, 231, 0.15)' : 'rgba(255,255,255,0.02)',
+                      background: addons.includes(addon.id) ? 'var(--purple-glow)' : 'var(--bg-input)',
                       border: addons.includes(addon.id) ? '1px solid var(--purple)' : '1px solid var(--border-glass)',
                       borderRadius: '8px',
                       fontSize: '0.8rem',
                       fontWeight: 500,
-                      color: addons.includes(addon.id) ? '#ffffff' : 'var(--text-muted)',
+                      color: addons.includes(addon.id) ? 'var(--purple)' : 'var(--text-muted)',
                       transition: 'all 0.3s',
                       display: 'flex',
                       alignItems: 'center',
@@ -227,7 +227,7 @@ export default function EventCalculator() {
                         width: '12px',
                         height: '12px',
                         borderRadius: '3px',
-                        border: addons.includes(addon.id) ? '1px solid var(--purple)' : '1px solid rgba(255,255,255,0.2)',
+                        border: addons.includes(addon.id) ? '1px solid var(--purple)' : '1px solid var(--border-glass)',
                         backgroundColor: addons.includes(addon.id) ? 'var(--purple)' : 'transparent',
                       }}
                     />

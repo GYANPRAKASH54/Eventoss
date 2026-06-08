@@ -136,7 +136,7 @@ export default function Navbar() {
                   fontSize: 'clamp(0.8rem, 1.1vw, 0.95rem)',
                   transition: 'color 0.25s',
                 }}
-                onMouseEnter={(e) => (e.currentTarget.style.color = '#ffffff')}
+                onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--purple)')}
                 onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-muted)')}
               >
                 {link.name}
@@ -152,7 +152,7 @@ export default function Navbar() {
                   fontSize: 'clamp(0.8rem, 1.1vw, 0.95rem)',
                   transition: 'color 0.25s',
                 }}
-                onMouseEnter={(e) => (e.currentTarget.style.color = '#ffffff')}
+                onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--purple)')}
                 onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-muted)')}
               >
                 {link.name}

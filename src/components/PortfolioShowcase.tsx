@@ -97,9 +97,9 @@ export default function PortfolioShowcase() {
                   className="clickable"
                   style={{
                     padding: '10px 22px',
-                    background: filter === btn.id ? 'var(--purple)' : 'rgba(255,255,255,0.03)',
+                    background: filter === btn.id ? 'var(--purple)' : 'var(--bg-input)',
                     border: filter === btn.id ? '1px solid var(--purple)' : '1px solid var(--border-glass)',
-                    color: 'var(--text-light)',
+                    color: filter === btn.id ? '#ffffff' : 'var(--text-light)',
                     borderRadius: '30px',
                     fontSize: '0.85rem',
                     fontWeight: 500,

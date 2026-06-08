@@ -221,12 +221,12 @@ export default function MultiStepWizard() {
                           padding: '16px',
                           textAlign: 'left',
                           borderRadius: '8px',
-                          background: formData.mood === m.id ? 'rgba(212, 175, 55, 0.1)' : 'rgba(255,255,255,0.01)',
+                          background: formData.mood === m.id ? 'rgba(212, 175, 55, 0.1)' : 'var(--bg-input)',
                           border: formData.mood === m.id ? '1px solid var(--gold)' : '1px solid var(--border-glass)',
                           transition: 'all 0.3s',
                         }}
                       >
-                        <div style={{ color: formData.mood === m.id ? 'var(--gold)' : '#ffffff', fontSize: '0.85rem', fontWeight: 600 }}>{m.label}</div>
+                        <div style={{ color: formData.mood === m.id ? 'var(--gold)' : 'var(--text-light)', fontSize: '0.85rem', fontWeight: 600 }}>{m.label}</div>
                         <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '2px' }}>{m.desc}</div>
                       </button>
                     ))}
