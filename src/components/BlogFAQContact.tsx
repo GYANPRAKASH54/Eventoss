@@ -242,8 +242,8 @@ export default function BlogFAQContact() {
                     <MapPin size={16} />
                   </div>
                   <div>
-                    <h4 style={{ fontSize: '0.9rem', color: 'var(--text-light)', fontWeight: 600 }}>Staging HQ Office</h4>
-                    <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '2px' }}>Bihar, Jharkhand & Delhi NCR</p>
+                    <h4 style={{ fontSize: '0.9rem', color: 'var(--text-light)', fontWeight: 600 }}>Head Office</h4>
+                    <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '2px' }}>208-A, Kaushalya Estate, Dak Bunglow Road, Patna</p>
                   </div>
                 </div>
 
@@ -253,7 +253,7 @@ export default function BlogFAQContact() {
                   </div>
                   <div>
                     <h4 style={{ fontSize: '0.9rem', color: 'var(--text-light)', fontWeight: 600 }}>Hotline Routing</h4>
-                    <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '2px' }}>+91 7061528401</p>
+                    <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '2px' }}>+91 0612 2230055 / +91 7061528401 / 402</p>
                   </div>
                 </div>
 
